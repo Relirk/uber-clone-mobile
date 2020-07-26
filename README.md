@@ -6,7 +6,7 @@
 
 ###
 
-![Realm](./.github/assets/relirk-uber-mobile.png)
+![Uber](./.github/assets/relirk-uber-mobile.png)
 
 ### Tools used:
 
