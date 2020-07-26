@@ -1,6 +1,7 @@
 # Uber Clone
 
 :iphone: React Native application Google Maps and Geolocation
+Based on the study of the [Rocketseat video](https://www.youtube.com/watch?v=bg-U0xZwcRk)
 
 ###
 
@@ -16,7 +17,7 @@
 
 ```javascript
 // src/components/Search/index.js
- query={{
+query={{
   key: "YOUR_API_KEY",
   language: "pt",
 }}
@@ -36,7 +37,7 @@ const Directions = ({ destination, origin, onReady }) => (
 
 ```xml
 <!-- AndroidManifest.xml -->
- <meta-data
+<meta-data
     android:name="com.google.android.geo.API_KEY"
     android:value="YOUR_API_KEY"/>
 ```
