@@ -1,17 +1,45 @@
-# React Native Realm DB
+# Uber Clone
 
-:iphone: React Native application using the Github and RealmDB API for offline storage
+:iphone: React Native application Google Maps and Geolocation
 
 ###
 
-![Realm](./.github/assets/relirk-realm-react-native.png)
+![Realm](./.github/assets/relirk-uber-mobile.png)
 
 ### Tools used:
 
 - [Rect Native](https://reactnative.dev/)
-- [Realm](https://realm.io/)
-- [Github API](https://developer.github.com/v3/)
+- [React Native Maps](https://github.com/react-native-community/react-native-maps)
 - [Axios](https://github.com/axios/axios)
+
+### Setting up your api key
+
+```javascript
+// src/components/Search/index.js
+ query={{
+  key: "YOUR_API_KEY",
+  language: "pt",
+}}
+
+// src/components/Directions/index.js
+const Directions = ({ destination, origin, onReady }) => (
+  <MapViewDirections
+    destination={destination}
+    origin={origin}
+    onReady={onReady}
+    apikey="YOUR_API_KEY"
+    strokeWidth={3}
+    strokeColor="#222"
+  />
+);
+```
+
+```xml
+<!-- AndroidManifest.xml -->
+ <meta-data
+    android:name="com.google.android.geo.API_KEY"
+    android:value="YOUR_API_KEY"/>
+```
 
 ### Running Locally
 
