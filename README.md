@@ -1,7 +1,8 @@
 # Uber Clone
 
 :iphone: React Native application Google Maps and Geolocation
-Based on the study of the [Rocketseat video](https://www.youtube.com/watch?v=bg-U0xZwcRk)
+
+- Based on the study of the [Rocketseat video](https://www.youtube.com/watch?v=bg-U0xZwcRk)
 
 ###
 
