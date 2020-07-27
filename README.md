@@ -1,5 +1,5 @@
 # Uber Clone (2019)
-<p align="center">
+<p align="left">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Relirk/uber-clone-mobile">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Relirk/uber-clone-mobile">
